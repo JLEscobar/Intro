@@ -10,7 +10,7 @@ image = Image.open("Avatar_belial.png")
 st.image(image, caption='Que pasa!!!!')
 
 texto = st.text_input('my besto frendo', 'itadori iuji')
-st.write('como diria otro loquito te estoy escuchando',texto)
+st.write('Solo quiero a Takada-chan y a',texto,' mi besto frendro')
 
 st.subheader('breve anuncio')
 col1,col2 = st.columns(2)
@@ -18,6 +18,6 @@ col1,col2 = st.columns(2)
 with col1:
   st.subheader('Esta es una columna')
   st.write('aplausos gente aplausos')
-  resp = st.checkbox('belial es god')
+  resp = st.checkbox('belial es god?')
   if resp:
-    st.write('correcto')
+    st.write('efectivamente brodah')
