@@ -6,4 +6,4 @@ st.header("En este espacio comiezo a desarrollar mis aplicaciones para interface
 st.write("facilmente pudo realizar banked y fronted")
 image = Image.open("Avatar_balial.png")
 
-st.image(image, caption'Avatar belial')
+st.image(image, caption='Avatar belial')
