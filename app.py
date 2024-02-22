@@ -13,7 +13,7 @@ texto = st.text_input('my besto frendo', 'itadori iuji')
 st.write('vira goes brrr',texto)
 
 st.subheader('breve anuncio')
-col1, col2 = st.colums(2)
+col1,col2 = st.columns(2)
 
 with col1:
   st.subheader('Esta es una columna')
