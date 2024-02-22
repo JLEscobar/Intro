@@ -4,6 +4,6 @@ st.title("mi primera app")
 
 st.header("En este espacio comiezo a desarrollar mis aplicaciones para interfaces multimodales")
 st.write("facilmente pudo realizar banked y fronted")
-image = Image.open("Avatar_balial.png")
+image = Image.open("Avatar_belial.png")
 
 st.image(image, caption='Avatar belial')
