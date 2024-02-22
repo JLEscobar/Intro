@@ -24,7 +24,8 @@ with col1:
     
 with col2:
   st.subheader('Estas en peligro brodah')
-  modo = st.radio('Si tuvieras que elegir uno cual escogerias', ('Yuri','Cammy','Zangief')
+  modo = st.radio('Si tuvieras que elegir uno cual escogerias', ('Yuri','Cammy','Zangief'))
+                  
   if modo == 'Yuri':
       st.write('te gustan los niños y el fbi esta llegando, no para capturarte, sino para asesinarte')
   if modo == 'Cammy':
