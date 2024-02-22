@@ -1,5 +1,5 @@
 import streamlit as st
-from PIL impor Image
+from PIL import Image
 st.title("mi primera app")
 
 st.header("En este espacio comiezo a desarrollar mis aplicaciones para interfaces multimodales")
