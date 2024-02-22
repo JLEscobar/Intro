@@ -6,11 +6,13 @@ st.header("En este espacio comiezo a desarrollar mis aplicaciones para interface
 st.write("facilmente pudo realizar banked y fronted")
 image = Image.open("Avatar_belial.png")
 
+
 st.image(image, caption='Que pasa!!!!')
 
 texto = st.text_input('my besto frendo', 'itadori iuji')
 st.write('vira goes brrr',texto)
 
+st.subheader('breve anuncio')
 col1, col2 = st.colums(2)
 
 with col1:
