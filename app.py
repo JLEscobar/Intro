@@ -10,7 +10,7 @@ image = Image.open("Avatar_belial.png")
 st.image(image, caption='Que pasa!!!!')
 
 texto = st.text_input('my besto frendo', 'itadori iuji')
-st.write('Solo quiero a Takada-chan y a',texto,' mi besto frendro')
+st.write('Solo quiero a Takada-chan y a',texto,' mi besto frendo')
 
 st.subheader('breve anuncio')
 col1,col2 = st.columns(2)
