@@ -31,4 +31,4 @@ with col2:
   if modo == 'Cammy':
       st.write('Eres un hombre de gustos basicos y simples, pero que nadie te diga que esta mal, por que son buenos, todos vimos ese poto')
   if modo == 'Zangief':
-      st.write('Eres o muy basado o te gusta comer crayones, no tienes puunto medio')
+      st.write('Eres o muy basado o te gusta comer crayones, no tienes punto medio')
