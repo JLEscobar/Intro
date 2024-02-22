@@ -21,3 +21,13 @@ with col1:
   resp = st.checkbox('belial es god?')
   if resp:
     st.write('efectivamente brodah')
+    
+with col2:
+  st.subheader('Estas en peligro brodah')
+  modo = st.radio('Si tuvieras que elegir uno cual escogerias', ('Yuri','Cammy','Zangief')
+  if modo == 'Yuri':
+      st.write('te gustan los niños y el fbi esta llegando, no para capturarte, sino para asesinarte')
+  if modo == 'Cammy':
+      st.write('Eres un hombre de gustos basicos y simples, pero que nadie te diga que esta mal, por que son buenos, todos vimos ese poto')
+  if modo == 'Zangief':
+      st.write('Eres o muy basado o te gusta comer crayones, no tienes puunto medio')
